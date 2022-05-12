@@ -6,6 +6,7 @@
     --white: #fff;
     --text-gray: #4A4A4A;
     --text-light-gray: #aaa;
+    --star-yellow: #FFBB3A;
 
 }
 
@@ -75,13 +76,14 @@ margin-right: 10px;
 
 .dsmovie-card-description {
     background-color: var(--white);
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 0 0 8px 8px;
     text-align: center;
     justify-content: space-between;
+    height: 220px;
 }
 
 .dsmovie-card-description h3{
@@ -89,6 +91,30 @@ margin-right: 10px;
     font-size: 14px;
     font-weight: 700;
     
+}
+
+.dsmovie-card-description-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.dsmovie-card-description-bottom h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow);
+}
+
+.dsmovie-card-description-bottom p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light-gray);
+    margin-bottom: 10PX;
+}
+
+.dsmovie-card-description-bottom img{   
+    width: 22px;
 }
 
 .dsmovie-btn, .dsmovie-btn:hover{
